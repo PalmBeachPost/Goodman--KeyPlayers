@@ -4,25 +4,23 @@
             "index": 0,
             "name": "John Goodman",
             "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/610/img/photos/2014/02/28/56/89/goodman.jpg",
-            "descr": "Founder of the International Polo Club in Wellington, FL, accused of DUI manslaughter in the February 2010 death of 23-year-old Scott Patrick Wilson. Goodman, 50, is a Texas native who is heir to a heating and air conditioning fortune. His insurance company paid Wilson’s family approximately $43 million to settle a wrongful death suit after the crash. A jury in 2012 convicted Goodman of DUI manslaughter in Wilson’s death, and he was sentenced to 16 years in prison, but Circuit Judge Jeffrey Colbath in May 2013 overturned the conviction bcause of juror misconduct, clearing the way for a new trial.",
-            "x": 100,
-            "y": 400,
-            "fixed":false
+            "descr": "Founder of the International Polo Club in Wellington, FL, accused of DUI manslaughter in the February 2010 death of 23-year-old Scott Patrick Wilson. Goodman, 50, is a Texas native who is heir to a heating and air conditioning fortune. His insurance company paid Wilson's family approximately $43 million to settle a wrongful death suit after the crash. A jury in 2012 convicted Goodman of DUI manslaughter in Wilson's death, and he was sentenced to 16 years in prison, but Circuit Judge Jeffrey Colbath in May 2013 overturned the conviction bcause of juror misconduct, clearing the way for a new trial.",
+            "x": 200,
+            "y": 200
         },
         {
             "index": 1,
             "name": "Scott Patrick Wilson",
             "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/960/img/photos/2012/03/31/de/d8/scott_wilson_439219a_4.jpg",
-            "descr": "Wilson was 23 years old when he drowned after Goodman’s Bentley crashed into his Hyundai and pushed it upside-down into a canal. A former Wellington High School student, Wilson graduated from the University of Central Florida with a degree in mechanical engineering months before his death. He was living in Orlando, where he was looking for work, but on the weekend of the crash he was coming home to spend time with his family and celebrate his sister’s birthday.",
-            "x": 200,
-            "y": 400,            
-            "fixed":false
+            "descr": "Wilson was 23 years old when he drowned after Goodman's Bentley crashed into his Hyundai and pushed it upside-down into a canal. A former Wellington High School student, Wilson graduated from the University of Central Florida with a degree in mechanical engineering months before his death. He was living in Orlando, where he was looking for work, but on the weekend of the crash he was coming home to spend time with his family and celebrate his sister's birthday.",
+            "x": 700,
+            "y": 200
         },
         {
             "index":  2,
             "name":  "Circuit Judge Jeffrey Colbath",
             "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/960/img/photos/2013/04/27/04/79/101212-Goodman-5.jpg",
-            "descr":  "Now the Chief Judge in the judicial circuit covering Palm Beach County, Colbath is the presiding judge over John Goodman’s DUI manslaughter case. Colbath sentenced Goodman to 16 years in prison in 2012 after a jury convicted Goodman in the case, but he overturned both the conviction and sentence in the case in May 2013 after he found misconduct on the part of juror Dennis DeMartin. Colbath sentenced DeMartin to six months in jail based on related contempt of court charges.",
+            "descr":  "Now the Chief Judge in the judicial circuit covering Palm Beach County, Colbath is the presiding judge over John Goodman's DUI manslaughter case. Colbath sentenced Goodman to 16 years in prison in 2012 after a jury convicted Goodman in the case, but he overturned both the conviction and sentence in the case in May 2013 after he found misconduct on the part of juror Dennis DeMartin. Colbath sentenced DeMartin to six months in jail based on related contempt of court charges.",
             "x":  20,
             "y":  200
         },
@@ -30,7 +28,7 @@
             "index":  3,
             "name":  "Ellen Roberts",
             "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2013/05/22/37/c6/042913-Goodman-5.jpg",
-            "descr":  "A former Assistant State Attorney who led the state’s prosecution of Goodman through the first trial, Roberts is now a retired traffic homicide prosecutor who tried more than five dozen traffic homicide cases in her career over three decades. She now works part-time for the civil firm who represents Wilson’s father. Goodman’s new defense team has criticized her for the decision to release from evidence the Bentley Goodman was driving in the crash after he was convicted in 2012.",
+            "descr":  "A former Assistant State Attorney who led the state's prosecution of Goodman through the first trial, Roberts is now a retired traffic homicide prosecutor who tried more than five dozen traffic homicide cases in her career over three decades. She now works part-time for the civil firm who represents Wilson's father. Goodman's new defense team has criticized her for the decision to release from evidence the Bentley Goodman was driving in the crash after he was convicted in 2012.",
             "x":  20,
             "y":  40
         },
@@ -38,7 +36,7 @@
             "index":  4,
             "name":  "Roy Black",
             "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/03/31/46/98/goodman0308-black_1383306a.JPG",
-            "descr":  "High-profile Miami-based defense attorney whose client list includes William Kennedy Smith, Rush Limbaugh and most recently Justin Bieber. Black headed a team of lawyers representing Goodman in the first trial. Black abruptly resigned from the case after winning an appeal to overturn the guilty verdict. Black’s firm then withheld trial documents from Goodman’s attorneys for the second trial, claiming Goodman owned them money.",
+            "descr":  "High-profile Miami-based defense attorney whose client list includes William Kennedy Smith, Rush Limbaugh and most recently Justin Bieber. Black headed a team of lawyers representing Goodman in the first trial. Black abruptly resigned from the case after winning an appeal to overturn the guilty verdict. Black's firm then withheld trial documents from Goodman's attorneys for the second trial, claiming Goodman owned them money.",
             "x":  20,
             "y":  40
         },
@@ -46,7 +44,7 @@
             "index":  5,
             "name":  "Mark Shapiro",
             "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2014/03/19/01/78/MArk-Shapiro.jpg",
-            "descr":  "One of Goodman’s legal defense team who is a partner in Roy Black’s Miami firm. Shapiro worked previously as a prosecutor in the Miami-Dade State Attorney’s office. He too withdrew from the case after the appeal was won.",
+            "descr":  "One of Goodman's legal defense team who is a partner in Roy Black's Miami firm. Shapiro worked previously as a prosecutor in the Miami-Dade State Attorney's office. He too withdrew from the case after the appeal was won.",
             "x":  20,
             "y":  40
         },
@@ -54,7 +52,7 @@
             "index":  6,
             "name":  "William Wilson",
             "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2014/03/07/88/7e/051112-Goodman-lw-c.jpg",
-            "descr":  "Scott Wilson’s father. He is an engineer who had divorced and remarried before Scott’s death. Sat for hours at the crash scene waiting to have Scott’s death confirmed. Filed a wrongful death suit with Lili Wilson against Goodman that was settled just before the first trial.",
+            "descr":  "Scott Wilson's father. He is an engineer who had divorced and remarried before Scott's death. Sat for hours at the crash scene waiting to have Scott's death confirmed. Filed a wrongful death suit with Lili Wilson against Goodman that was settled just before the first trial.",
             "x":  20,
             "y":  40
         },                
@@ -62,7 +60,7 @@
             "index":  7,
             "name":  "Lili Wilson",
             "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2013/05/30/ca/a1/053013_DeMartin_6.jpg",
-            "descr":  "Scott Wilson’s mother. Scott, a recent UCF graduate and Orlando resident, was driving west on Lake Worth Road on his way to his mother’s Wellington home when Goodman ran a stop sign and hit Scott’s car, plunging it into a canal. She has said the original sentence of 16 years was too lenient. ",
+            "descr":  "Scott Wilson's mother. Scott, a recent UCF graduate and Orlando resident, was driving west on Lake Worth Road on his way to his mother's Wellington home when Goodman ran a stop sign and hit Scott's car, plunging it into a canal. She has said the original sentence of 16 years was too lenient. ",
             "x":  20,
             "y":  40
         },
@@ -70,25 +68,186 @@
             "index": 8,
             "name":  "Ignacio \"Nacho\" Figueras",
             "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/a8/c1/031612_met_goodman_18.jpg",
-            "descr":  "An Argentine polo player and model who has been referred to as the “David Beckham” of polo, Figueras is a longtime friend of Goodman’s and was one of the celebrity bartenders at a charity event  Goodman attended on the night of the crash. Figueras testified that he never served any alcohol to Goodman, and that he's sure Goodman was sober at the time the polo mogul left the event at the White Horse Tavern and headed to an after party at the Players Club",
+            "descr":  "An Argentine polo player and model who has been referred to as the \"David Beckham\" of polo, Figueras is a longtime friend of Goodman's and was one of the celebrity bartenders at a charity event  Goodman attended on the night of the crash. Figueras testified that he never served any alcohol to Goodman, and that he's sure Goodman was sober at the time the polo mogul left the event at the White Horse Tavern and headed to an after party at the Players Club",
             "x":  20,
             "y":  40
         },
         {
-            "index":  9,
-            "name":  "Some person",
-            "img":  "http://sweetsocial.co/wp-content/uploads/2013/01/circle.profile.photo_.small_.png",
-            "descr":  "An Argentine polo player and model who has been referred to as the “David Beckham” of polo, Figueras is a longtime friend of Goodman’s and was one of the celebrity bartenders at a charity event  Goodman attended on the night of the crash. Figueras testified that he never served any alcohol to Goodman, and that he's sure Goodman was sober at the time the polo mogul left the event at the White Horse Tavern and headed to an after party at the Players Club",
+            "index": 9,
+            "name":  "Heather Ann Hutchins",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/03/31/6f/75/031412_met_goodman_1392405a.JPG",
+            "descr":  "Hutchins, also known as Heather Colby, is John Goodman's girlfriend and one of two people he called after the crash before calling 911. Hutchins was further thrust into the spotlight before Goodman's first trial when he tried to legally adopt her. Goodman's attorneys called it an estate planning measure to help manage his childrens' trust, but civil attorneys for Scott Wilson's family said it was a move to hide assets in their wrongful death suit against Goodman.",
+            "x":  20,
+            "y":  40
+        },        
+        {
+            "index": 10,
+            "name":  "Nicole Ocoro",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/e0/11/031412_met_goodman_1.jpg",
+            "descr":  "A witness in Goodman's first trial, Ocoro was a college student on her way home from a late movie at about 1 a.m. February 12, 2010 when she spotted Goodman's wrecked Bentley at the intersection of Lake Worth Road and 120th Avenue. She turned around and went back to the scene of the crash, and when she found no one there she called 911.",
+            "x":  20,
+            "y":  40
+        },        
+        {
+            "index": 11,
+            "name":  "Dennis DeMartin",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2014/03/03/ab/63/012714-DeMartin-3.jpg",            
+            "descr":  "A retired Delray Beach accountant, DeMartin is the former juror on Goodman's case that is credited with derailing Goodman's first conviction because of misconduct. DeMartin wrote three self-published books after serving as a juror in Goodman's case, including The Trials and Tribulations of a Senior Citizen Trying to Get a Date Without a Car. Believing in the Truth, and Will She Kiss me or Kill Me? In the second and third books respectively, DeMartin revealed he conducted a forbidden drinking experiment before he and the other jurors convicted Goodman and also said his ex-wife had once been arrested for DUI - a fact he failed to disclose as a prospective juror. Circuit Judge Jeffrey Colbath overturned Goodman's conviction and 16-year prison sentence based on those acts, and he eventually sentenced DeMartin to six months in jail on contempt of court charges.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 12,
+            "name":  "Deputy Ricardo Safford",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/91/9e/031412_met_goodman_15.jpg",
+            "descr":  "After Goodman called 911, Safford was the deputy who picked him up outside Lisa Pembleton's trailer and drove him to the crash scene. Safford in Goodman's first trial testified that he reeked of alcohol and said that he had to drive his squad car around with the windows down to get rid of the lingering odor of alcohol.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 13,
+            "name":  "Stacey Shore",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/03/30/04/16/shore_1402962a.JPG",
+            "descr":  "Shore testified that she danced with and kissed Goodman at the Players Club on the night of the crash. Goodman, Shore said, asked her to leave with him, but she said she had a policy of not leaving clubs with people who have \"had more than two or three drinks.\"",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 14,
+            "name":  "Michael Urban",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/b7/3d/032012_met_goodman_3.jpg",
+            "descr":  "Defense expert who reconstructed the accident and made conclusions different than the ones offered by the lead investigator in Goodman's case, Palm Beach County sheriff's deputy Troy Snelgrove. Urban said he believed the Bentley and Hyundai collided twice, which would throw off Snelgrove's estimates that Goodman's car was traveling about 63 miles per hour and Wilson's about 20 miles per hour slower at the time of the crash. Urban said Goodman was driving between 49 and 58 miles per hour and Wilson between 47 and 54. Snelgrove testified that the cars only collided once, and the much heavier Bentley nearly split the Hyundai in two.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 15,
+            "name":  "Dr. Richard Hamilton",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/9a/de/031912_met_goodman_14.jpg",
+            "descr":  "Hamilton, a neuropsychologist, testified at length about the symptoms and signs of concussions during Goodman's first trial as the defense pursued the claim that Goodman could have suffered a concussion in the crash.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 16,
+            "name":  "Carlos Pravaz",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/4d/7c/031312_met_goodman_20.jpg",
+            "descr":  "A horse trainer who served as Goodman's assistant and friend, Pravaz was one of two people Goodman called after the crash from Lisa Pembleton's phone before he called 911. Goodman also called his girlfriend, Heather Anne Hutchins.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 17,
+            "name":  "Marcos DaSilva",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/d6/8e/031612_met_goodman_16.jpg",
+            "descr":  "A caretaker at Kris Kampsen's barn, DaSilva testified that when he went to the man cave after the crash, someone had left the lights and television on - a sign someone had been there.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 18,
+            "name":  "Dustin Tate Yeatman",
+            "img":  "http://www.globaloceancommission.org/wp-content/uploads/unknown.png",
+            "descr":  "Yeatman is the forensic toxicologist who testified that if Goodman's blood alcohol content  hours after the crash was .177 percent - the equivalent of having had nine or 10 one-ounce alcoholic drinks - Goodman had to have had at least 13 ounces of alcohol in his system at the time of the crash. And the hydrocodone content in his blood, Yeatman said, had an 'additive effect' to Goodman's impairment that night.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 19,
+            "name":  "Sherri Collins",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2013/04/27/cf/ff/121812-Goodman-10.jpg",
+            "descr":  "An assistant State Attorney and one of the prosecutors the Goodman case, Collins and former prosecutor Ellen Roberts convinced a jury in 2012 to convict Goodman on DUI manslaughter charges. Afterwards, Collins herself became the center of controversy when Palm Beach County Sheriff's deputy Bridgette Bott accused her of deliberately keeping her off the stand during a hearing where Goodman was accused of deliberately breaking his house arrest ankle monitor. Bott said she told Collins she could have corroborated Goodman's story that the break was accidental, but Collins sent her home. Collins is now prosecuting Goodman with Chief Assistant State Attorney Alan Johnson.",
+            "x":  20,
+            "y":  40
+        },
+         {
+            "index": 20,
+            "name":  "Alan Johnson",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/05/10/30/85/alan_johnson_01_395593a.jpg",
+            "descr":  "Formerly the director of Palm Beach County's Commission on ethics, Johnson is a Chief Assistant State Attorney who took over for outgoing Assistant State Attorney Ellen Roberts in prosecuting the Goodman case. He is one of three chief assistants serving under Palm Beach State Attorney Dave Aronberg, and is in charge of legal education as well as support staff in the office.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 21,
+            "name":  "Kris Kampsen",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/76/9f/031312_met_goodman_10.jpg",
+            "descr":  "A polo player who played on Goodman's team and was among the group drinking with Goodman at the Players Club on the night of the crash. Goodman testified that after the crash he sought a phone in Kampsen's barn. The barn, aka Kampsen's 'man cave,' has no phone but does have TV and fully stocked bar. Kampsen said he learned that Goodman stopped there only when the two were out at dinner in Miami weeks after the crash. He told detectives Goodman asked him that night if he still stocked alcohol in the barn.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 22,
+            "name":  "Lisa Pembleton",
+            "img":  "http://www.globaloceancommission.org/wp-content/uploads/unknown.png",
+            "descr":  "Equestrian who testified that Goodman came to her trailer after the crash and asked to borrow her phone. She said she and Goodman discussed his having been in an accident, and she encouraged him to call 911. At trial it was revealed that she had been getting free legal services from the firm representing Scott Wilson's family and settled a wrongful death suit against Goodman. ",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 23,
+            "name":  "Cathleen Lewter",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/d3/c7/031312__met_goodman_14.jpg",
+            "descr":  "Players Club bartender the night of the crash. She originally estimated that the drinks she poured and saw Goodman drink collectively contained about 6.5 ounces of liquor, but she later said she miscalculated and said it was about half that amount. ",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 24,
+            "name":  "Troy Snelgrove",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2014/03/06/4e/19/030614-Goodman-Hearing-5.jpg",
+            "descr":  "Palm Beach County Sheriff's lead investigator in the case, hired by PBSO in 1995 and a traffic homicide investigator for more than a decade.  He mapped the crash scene that morning and eventually created a 3D detailed animation of the crash that was shown to the jury.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 25,
+            "name":  "Luka Serdar",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/b6/c3/032112_met_goodman_3.jpg",
+            "descr":  "Engineer who testified for the defense that there were several error codes on the Bentley's computer system at the time of the crash. Serdar said that although the malfunction would not have caused the car to go into a fail-safe-mode, applying the brakes still would have stopped the car.",
+            "x":  20,
+            "y":  40
+        },
+         {
+            "index": 26,
+            "name":  "Tom Livernois",
+            "img":  "http://www.globaloceancommission.org/wp-content/uploads/unknown.png",
+            "descr":  "The prosecution's engineer, an expert on automotive electrical systems out of Michigan. Livernois testified there was no way the car suddenly accelerated before the crash. He said the error codes referred to by the defense were caused by the crash. ",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 27,
+            "name":  "Bridgette Bott",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/12/18/e9/64/121812_Goodman_5.jpg",
+            "descr":  "A PBSO Deputy who was assigned to the team monitoring Goodman at his estate during his house-arrest awaiting trial. When Goodman's ankle monitor failed, she backed his version of events and later claimed in a lawsuit against the department that she was taken off the lucrative detail as a result. The department said another incident resulted in her suspension and assignment change.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 28,
+            "name":  "Harriet Goodman ",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/41/ca/031912_met_goodman_7.jpg",
+            "descr":  "John Goodman's mother. She died in Houston Aug. 27 at the age of 85 while Goodman awaited a new trial. Earlier that month, Judge Colbath granted Goodman permission to take a four-day trip with PBSO supervision to visit Harriet, who was battling cancer.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 29,
+            "name":  "Joshua Dubin",
+            "img":  "http://www.globaloceancommission.org/wp-content/uploads/unknown.png",
+            "descr":  "A lawyer and jury consultant who Roy Black brought on to Goodman's legal defense team. Dubin helped select the panel that eventually convicted Goodman at the end of the March 2012 trial. Dubin also resigned from the case after trial.",
             "x":  20,
             "y":  40
         }
+        
         
     ],
     "links": [
         {
             "source":  0,
             "target":  1,
-            "type":  "crash"
+            "type":  "involved in crash"
         },
         {
             "source":  0,
@@ -134,25 +293,150 @@
             "source":  0,
             "target":  8,
             "type":  "friend"
-        },
+        },        
         {
             "source":  0,
             "target":  9,
+            "type":  "girlfriend"
+        },        
+        {
+            "source":  11,
+            "target":  2,
+            "type":  "juror"
+        },        
+        {
+            "source":  2,
+            "target":  10,
+            "type":  "witness"
+        },      
+        {
+            "source":  0,
+            "target":  12,
+            "type":  ""
+        },    
+        {
+            "source":  12,
+            "target":  2,
+            "type":  "testified"
+        },  
+        {
+            "source":  0,
+            "target":  13,
+            "type":  ""
+        },   
+        {
+            "source": 13,
+            "target":  2,
+            "type":  "testified"
+        },
+        {
+            "source":  0,
+            "target":  14,
+            "type":  "expert"
+        },
+        {
+            "source":  14,
+            "target":  2,
+            "type":  "testified"
+        },
+        {
+            "source":  15,
+            "target":  2,
+            "type":  "testified"
+        },
+        {
+            "source":  0,
+            "target":  15,
+            "type":  "expert"
+        },
+        {
+            "source":  0,
+            "target":  16,
             "type":  "friend"
+        },
+        {
+            "source":  17,
+            "target":  2,
+            "type":  "testified"
+        },
+        {
+            "source":  18,
+            "target":  2,
+            "type":  "testified"
         },
         {
             "source":  1,
-            "target":  9,
-            "type":  "friend"
+            "target":  19,
+            "type":  "Asst. State Attorney"
         },
         {
-            "source":  2,
-            "target":  9,
-            "type":  "friend"
+            "source":  1,
+            "target":  20,
+            "type":  "Asst. State Attorney"
         },
-         {
+        {
             "source":  3,
-            "target":  9,
+            "target":  20,
+            "type":  "succeeded"
+        },
+        {
+            "source":  0,
+            "target":  21,
+            "type":  "polo player"
+        },
+        {
+            "source":  17,
+            "target":  21,
+            "type":  "caretaker"
+        },
+        {
+            "source":  21,
+            "target":  2,
+            "type":  "testified"
+        },
+        {
+            "source":  23,
+            "target":  0,
+            "type":  "bartender"
+        },
+        {
+            "source":  24,
+            "target":  1,
+            "type":  "investigator"
+        },
+        {
+            "source":  24,
+            "target":  0,
+            "type":  "investigator"
+        },
+        {
+            "source":  25,
+            "target":  2,
+            "type":  "testified"
+        },
+        {
+            "source":  26,
+            "target":  2,
+            "type":  "testified"
+        },
+        {
+            "source":  27,
+            "target":  0,
+            "type":  "monitoring team"
+        },
+        {
+            "source":  0,
+            "target":  28,
+            "type":  "mother"
+        },
+        {
+            "source":  0,
+            "target":  29,
+            "type":  "lawyer"
+        },
+        {
+            "source":  0,
+            "target":  22,
             "type":  "friend"
         }
     ]
