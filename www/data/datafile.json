@@ -1,0 +1,159 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "name": "John Goodman",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/610/img/photos/2014/02/28/56/89/goodman.jpg",
+            "descr": "Founder of the International Polo Club in Wellington, FL, accused of DUI manslaughter in the February 2010 death of 23-year-old Scott Patrick Wilson. Goodman, 50, is a Texas native who is heir to a heating and air conditioning fortune. His insurance company paid Wilson’s family approximately $43 million to settle a wrongful death suit after the crash. A jury in 2012 convicted Goodman of DUI manslaughter in Wilson’s death, and he was sentenced to 16 years in prison, but Circuit Judge Jeffrey Colbath in May 2013 overturned the conviction bcause of juror misconduct, clearing the way for a new trial.",
+            "x": 100,
+            "y": 400,
+            "fixed":false
+        },
+        {
+            "index": 1,
+            "name": "Scott Patrick Wilson",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/960/img/photos/2012/03/31/de/d8/scott_wilson_439219a_4.jpg",
+            "descr": "Wilson was 23 years old when he drowned after Goodman’s Bentley crashed into his Hyundai and pushed it upside-down into a canal. A former Wellington High School student, Wilson graduated from the University of Central Florida with a degree in mechanical engineering months before his death. He was living in Orlando, where he was looking for work, but on the weekend of the crash he was coming home to spend time with his family and celebrate his sister’s birthday.",
+            "x": 200,
+            "y": 400,            
+            "fixed":false
+        },
+        {
+            "index":  2,
+            "name":  "Circuit Judge Jeffrey Colbath",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/960/img/photos/2013/04/27/04/79/101212-Goodman-5.jpg",
+            "descr":  "Now the Chief Judge in the judicial circuit covering Palm Beach County, Colbath is the presiding judge over John Goodman’s DUI manslaughter case. Colbath sentenced Goodman to 16 years in prison in 2012 after a jury convicted Goodman in the case, but he overturned both the conviction and sentence in the case in May 2013 after he found misconduct on the part of juror Dennis DeMartin. Colbath sentenced DeMartin to six months in jail based on related contempt of court charges.",
+            "x":  20,
+            "y":  200
+        },
+        {
+            "index":  3,
+            "name":  "Ellen Roberts",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2013/05/22/37/c6/042913-Goodman-5.jpg",
+            "descr":  "A former Assistant State Attorney who led the state’s prosecution of Goodman through the first trial, Roberts is now a retired traffic homicide prosecutor who tried more than five dozen traffic homicide cases in her career over three decades. She now works part-time for the civil firm who represents Wilson’s father. Goodman’s new defense team has criticized her for the decision to release from evidence the Bentley Goodman was driving in the crash after he was convicted in 2012.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index":  4,
+            "name":  "Roy Black",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/03/31/46/98/goodman0308-black_1383306a.JPG",
+            "descr":  "High-profile Miami-based defense attorney whose client list includes William Kennedy Smith, Rush Limbaugh and most recently Justin Bieber. Black headed a team of lawyers representing Goodman in the first trial. Black abruptly resigned from the case after winning an appeal to overturn the guilty verdict. Black’s firm then withheld trial documents from Goodman’s attorneys for the second trial, claiming Goodman owned them money.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index":  5,
+            "name":  "Mark Shapiro",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2014/03/19/01/78/MArk-Shapiro.jpg",
+            "descr":  "One of Goodman’s legal defense team who is a partner in Roy Black’s Miami firm. Shapiro worked previously as a prosecutor in the Miami-Dade State Attorney’s office. He too withdrew from the case after the appeal was won.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index":  6,
+            "name":  "William Wilson",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2014/03/07/88/7e/051112-Goodman-lw-c.jpg",
+            "descr":  "Scott Wilson’s father. He is an engineer who had divorced and remarried before Scott’s death. Sat for hours at the crash scene waiting to have Scott’s death confirmed. Filed a wrongful death suit with Lili Wilson against Goodman that was settled just before the first trial.",
+            "x":  20,
+            "y":  40
+        },                
+         {
+            "index":  7,
+            "name":  "Lili Wilson",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2013/05/30/ca/a1/053013_DeMartin_6.jpg",
+            "descr":  "Scott Wilson’s mother. Scott, a recent UCF graduate and Orlando resident, was driving west on Lake Worth Road on his way to his mother’s Wellington home when Goodman ran a stop sign and hit Scott’s car, plunging it into a canal. She has said the original sentence of 16 years was too lenient. ",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 8,
+            "name":  "Ignacio \"Nacho\" Figueras",
+            "img":  "http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/188/img/photos/2012/06/27/a8/c1/031612_met_goodman_18.jpg",
+            "descr":  "An Argentine polo player and model who has been referred to as the “David Beckham” of polo, Figueras is a longtime friend of Goodman’s and was one of the celebrity bartenders at a charity event  Goodman attended on the night of the crash. Figueras testified that he never served any alcohol to Goodman, and that he's sure Goodman was sober at the time the polo mogul left the event at the White Horse Tavern and headed to an after party at the Players Club",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index":  9,
+            "name":  "Some person",
+            "img":  "http://sweetsocial.co/wp-content/uploads/2013/01/circle.profile.photo_.small_.png",
+            "descr":  "An Argentine polo player and model who has been referred to as the “David Beckham” of polo, Figueras is a longtime friend of Goodman’s and was one of the celebrity bartenders at a charity event  Goodman attended on the night of the crash. Figueras testified that he never served any alcohol to Goodman, and that he's sure Goodman was sober at the time the polo mogul left the event at the White Horse Tavern and headed to an after party at the Players Club",
+            "x":  20,
+            "y":  40
+        }
+        
+    ],
+    "links": [
+        {
+            "source":  0,
+            "target":  1,
+            "type":  "crash"
+        },
+        {
+            "source":  0,
+            "target":  2,
+            "type":  "judge"
+        },
+        {
+            "source":  1,
+            "target":  2,
+            "type":  "judge"
+        },
+        {
+            "source":  1,
+            "target":  7,
+            "type":  "mother"
+        },
+        {
+            "source":  1,
+            "target":  3,
+            "type":  "state attorney"
+        },
+        {
+            "source":  0,
+            "target":  4,
+            "type":  "attorney"
+        },
+        {
+            "source":  0,
+            "target":  5,
+            "type":  "defense team"
+        },
+        {
+            "source":  4,
+            "target":  5,
+            "type":  "partner"
+        },        
+        {
+            "source":  1,
+            "target":  6,
+            "type":  "father"
+        },        
+        {
+            "source":  0,
+            "target":  8,
+            "type":  "friend"
+        },
+        {
+            "source":  0,
+            "target":  9,
+            "type":  "friend"
+        },
+        {
+            "source":  1,
+            "target":  9,
+            "type":  "friend"
+        },
+        {
+            "source":  2,
+            "target":  9,
+            "type":  "friend"
+        },
+         {
+            "source":  3,
+            "target":  9,
+            "type":  "friend"
+        }
+    ]
+}
