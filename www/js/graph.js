@@ -1,5 +1,6 @@
-var width = $('#gridholder').innerWidth(),
-    height = window.innerHeight * .8;
+var svg, link, node,
+    width = $('#gridholder').innerWidth(),
+    height = window.innerHeight;
 
 var force = d3.layout.force()
     .size([width, height])
@@ -10,17 +11,25 @@ var force = d3.layout.force()
 var drag = force.drag()
     .on("dragstart", dragstart);
 
-var svg = d3.select("#viz")
-    .attr("width", width)
-    .attr("height", height);
-
-var link = svg.selectAll(".link"),
-    node = svg.selectAll(".node");
-
-svg.append('g')
-        .attr('id', 'rectangles');
 
 function graphInit(graph) {
+    
+    if($('#viz').length==0){
+            $("<svg><\svg>")
+            .attr("id","viz")
+            .insertAfter('#infobox');
+        }
+
+    svg = d3.select("#viz")
+        .attr("width", width)
+        .attr("height", height);
+
+    link = svg.selectAll(".link"),
+    node = svg.selectAll(".node");
+
+    svg.append('g')
+        .attr('id', 'rectangles');
+
     for (var i = 0; i < graph.links.length; i++) {
         var src = graph.links[i].source;
         var target = graph.links[i].target;
@@ -70,15 +79,15 @@ function graphInit(graph) {
           .text(function (d) { return d.type; })
           .attr('startOffset', '50%');
 
-    var texts = d3.selectAll('text.linklabel text');
-    svg.select('#rectangles')
-         .data(texts)
-      .enter().append('rect')
-          .attr("x", function (d) { return d.getBBox().x; })
-          .attr("y", function (d) { return d.getBBox().y; })
-          .attr("width", function (d) { return d.getBBox().width; })
-          .attr("height", function (d) { return d.getBBox().height; })
-          .attr('fill', 'yellow');
+    //var texts = d3.selectAll('text.linklabel text');
+    //svg.select('#rectangles')
+    //     .data(texts)
+    //  .enter().append('rect')
+    //      .attr("x", function (d) { return d.getBBox().x; })
+    //      .attr("y", function (d) { return d.getBBox().y; })
+    //      .attr("width", function (d) { return d.getBBox().width; })
+    //      .attr("height", function (d) { return d.getBBox().height; })
+    //      .attr('fill', 'yellow');
 
     d3.select('#loading')
       .remove();
@@ -146,9 +155,13 @@ function showDeets(d) {
 
     //show information
     d3.select('#infobox')
-        .html("<h3>" + d.name +
+        .html("<p id='closebtn'>x</p><h3>" + d.name +
         "</h3><img src='" + d.img + "'/><p id='descr'>" + d.descr + "</p>")
         .style("display", "block");
+
+    d3.select('#closebtn').on('click', function () {
+        d3.select('#infobox').style('display', 'none');
+    })
 }
 
 function hideDeets(d) {
@@ -156,7 +169,7 @@ function hideDeets(d) {
         .attr("width", 60)
         .attr("height", 60);
 
-    d3.selectAll('.linklabel').style('display', 'none');
+    d3.selectAll('.linklabel, #infobox').style('display', 'none');
 
     d3.selectAll('.link.from-' + d.index + ',.link.to-' + d.index)
        .style('stroke', '#000')

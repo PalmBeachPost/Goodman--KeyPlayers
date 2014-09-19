@@ -1,5 +1,5 @@
 ﻿#container{
-    width:1152px;
+    /*width:1152px;*/
     margin:auto;
 }
 #graphholder{
@@ -24,11 +24,14 @@
     border: 1px solid grey;
     border-bottom: none;
     text-align: center;
-    background-color: grey;
+    background-color: lightgray;
     padding-bottom: 4px;
     cursor: pointer;
+    color:grey;
 }
 #tabctrl span.active{
+    border: 2px solid black;
+    border-bottom:none;
     background-color:white;
     color:steelblue;
 }
@@ -128,9 +131,15 @@
 
         #infobox img{
             max-height:30%;
-            max-width:auto;
             float:left;
             padding: 10px;
+        }
+
+        #closebtn{
+            float: right;
+            padding-right: 5px;
+            color: steelblue;
+            cursor: pointer;
         }
         .link {
             stroke: #000;

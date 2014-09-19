@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
     $('#tabctrl span').on('click', function () {
+        // take no action if the click is on an active tab;
         if ($(this).hasClass('active')) {
             return;
         }
@@ -9,7 +10,7 @@ $(document).ready(function () {
         $('#gridholder, #graphholder').toggle();
     });
 
-    $.getJSON('./data/datafile.json', function (data) {
+    $.getJSON('http://kavyasukumar.com/apps/goodman/data/datafile.json', function (data) {
         gridInit(data);
         graphInit(data);
     });

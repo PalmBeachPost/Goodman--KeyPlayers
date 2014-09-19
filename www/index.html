@@ -1,13 +1,48 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
-    <title>John Goodman case dataviz</title>
-    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <!--trying to include everything important from flatpage head-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">   
+    <!-- CMG CSS-->
+    <link rel="stylesheet" href="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/css/master.css">
+    <link rel="stylesheet" href="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/css/master-responsive.css">
+    <link rel="stylesheet" href="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/site/www_mypalmbeachpost_com/css/site.css">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- CMG JS-->
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/backbone-min.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/moment.min.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/modernizr.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/modernizr-extend.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/javascript/jquery.mobile-events.min.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/jquery.placeholder.min.js"></script>
+    <!--bootstrap-->
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/bootstrap-modalmanager.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/bootstrap-modal-ext.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/premium/js/bootstrap-collapse.js"></script>
+<script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-27-13-24-11/web/common/javascript/core.premium.js?version=2014-06-27"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/javascript/jquery.ui.core.min.js"></script>
+    <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2014-06-17-18-41-32/web/common/javascript/flatpage.js"></script>  
 </head>
 <body>
-    <div id="container">
-        <h1>John Goodman case: The key players</h1>
+    <script type="text/javascript">
+        function AddCss(path,name)
+        {
+            var $ = document; 
+            var head  = $.getElementsByTagName('head')[0];
+            var link  = $.createElement('link');
+            link.rel  = 'stylesheet';
+            link.type = 'text/css';
+            link.href= path+name;
+            head.appendChild(link); 
+        }
+        //Add you external css files here 
+        var path = 'http://kavyasukumar.com/apps/goodman/css/'; 
+        AddCss(path,'style.css');
+    </script>
+    <div class="container">
+        <h1>John Goodman trial: The key players</h1>
         <div>
             <p> Add a summary of the case here</p>
         </div>
@@ -20,7 +55,7 @@
         </div>
         <div id="graphholder">
             <div id="loading">LOADING... Please wait</div>
-            <p> Click on the photos to read more about the person and see how they are connected to the others. Drag the photos to pin their position. Double click or tap to release it.</p>
+            <p> Click on the photos to read more about the person and see how they are connected to the others. Drag a photo to pin its position. Double click or tap to release it.</p>
             <div style="position:relative">
                 <div id="infobox"></div>
                 <svg id="viz"></svg>
@@ -36,8 +71,8 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="./js/graph.js"></script>
-    <script src="./js/gridview.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="http://kavyasukumar.com/apps/goodman/js/graph.js"></script>
+    <script src="http://kavyasukumar.com/apps/goodman/js/gridview.js"></script>
+    <script src="http://kavyasukumar.com/apps/goodman/js/script.js"></script>
 </body>
 </html>
