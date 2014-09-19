@@ -3,17 +3,41 @@
 <head>
     <meta charset="utf-8">
     <title>John Goodman case dataviz</title>
-    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div id="gridholder"></div>
-    <div id="loading">LOADING... Please wait</div>
-    <svg id="viz"></svg>
-    <div id="infobox"></div>
+    <div id="container">
+        <h1>John Goodman case: The key players</h1>
+        <div>
+            <p> Add a summary of the case here</p>
+        </div>
+        <div id="tabctrl">
+            <span id="tab1" class="active">View List</span>
+            <span id="tab2"> View Connections</span>
+        </div>
+        <div id="gridholder">
+            <p> Click on the photos to read more about the person. Click again to close.</p>
+        </div>
+        <div id="graphholder">
+            <div id="loading">LOADING... Please wait</div>
+            <p> Click on the photos to read more about the person and see how they are connected to the others. Drag the photos to pin their position. Double click or tap to release it.</p>
+            <div style="position:relative">
+                <div id="infobox"></div>
+                <svg id="viz"></svg>
+            </div>
+        </div>
+        <hr/>
+        <div id="credits">
+            <p><span class="credittype">Photos by:</span> Lannis Waters</p>
+            <p><span class="credittype">Text by:</span> Sonja Isger and Daphne Duret</p>
+            <p><span class="credittype">Presentation by:</span> Kavya Sukumar</p>
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
-    <!--<script src="./js/graph.js"></script>-->
+    <script src="./js/graph.js"></script>
     <script src="./js/gridview.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

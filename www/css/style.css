@@ -1,7 +1,50 @@
-﻿#gridholder{
+﻿#container{
+    width:1152px;
+    margin:auto;
+}
+#graphholder{
+    display:none;
+}
+
+#gridholder{
      width:100%;
-            height:100%;
+     height:100%;
+     margin:auto;
 } 
+
+#tabctrl{
+    width:100%;
+    border-bottom: 2px solid black;
+    margin-bottom: 4px;
+}
+
+#tabctrl span{
+    min-width: 30%;
+    display: inline-block;
+    border: 1px solid grey;
+    border-bottom: none;
+    text-align: center;
+    background-color: grey;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+#tabctrl span.active{
+    background-color:white;
+    color:steelblue;
+}
+
+#credits .credittype{
+    font-weight:bold;
+}
+
+#credits p{    
+    display:inline;
+    border-right:1px solid black;
+    padding-right:2px;
+}
+
+
+/*-------------GRID STUFF-----------*/
 
 .person{
     height: 100px;
@@ -11,6 +54,55 @@
     padding: 0;
     margin: 0;
 }
+.person .descr{
+    display:none;
+}
+.person img{
+    overflow: hidden;
+    height:100%;
+    width:100%;
+    border:none;
+    z-index:0;
+}
+
+.person:hover img {
+    z-index:5;
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+    border: 1px solid white;
+}
+
+.expanded{
+    width: 100%;
+    height: auto;
+    display:block;
+    clear:both;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.expanded img{
+    overflow: hidden;
+    height:auto;
+    max-width:300px;
+    border:none;
+    z-index:0;
+    vertical-align: top;
+}
+.expanded .descr{
+    display:inline-block;
+    width: 50%;
+    padding:10px;
+    position:relative;
+    right:0;
+}
+
+.expanded #descr{
+    display:inline;
+}
+
+/*--------- GRAPH STUFF-----*/
 #loading{
             width:100%;
             height:100%;
@@ -22,13 +114,13 @@
             padding:10px;
             height:auto;
             position: absolute;
-            right:0;
-            top: 1%;
+            top: 0;
             width:25%;
             background: white;
+            display:none;
         }
 
-        #infobox #name{
+        h3{
             color:steelblue;
             font-size:1.5em;
             font-weight:bold;

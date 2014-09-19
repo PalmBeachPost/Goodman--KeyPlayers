@@ -1,5 +1,5 @@
-var width = window.innerWidth,
-    height = window.innerHeight * .98;
+var width = $('#gridholder').innerWidth(),
+    height = window.innerHeight * .8;
 
 var force = d3.layout.force()
     .size([width, height])
@@ -20,8 +20,7 @@ var link = svg.selectAll(".link"),
 svg.append('g')
         .attr('id', 'rectangles');
 
-d3.json("./data/datafile.json", function (error, graph) {
-
+function graphInit(graph) {
     for (var i = 0; i < graph.links.length; i++) {
         var src = graph.links[i].source;
         var target = graph.links[i].target;
@@ -83,7 +82,7 @@ d3.json("./data/datafile.json", function (error, graph) {
 
     d3.select('#loading')
       .remove();
-});
+}
 
 
 function tick() {
@@ -146,8 +145,10 @@ function showDeets(d) {
         .style('stroke-width', "1.5px");
 
     //show information
-    d3.select('#infobox').html("<p id='name'>" + d.name +
-        "</p><img src='" + d.img + "'/><p id='descr'>" + d.descr + "</p>");
+    d3.select('#infobox')
+        .html("<h3>" + d.name +
+        "</h3><img src='" + d.img + "'/><p id='descr'>" + d.descr + "</p>")
+        .style("display", "block");
 }
 
 function hideDeets(d) {
