@@ -239,6 +239,30 @@
             "descr":  "A lawyer and jury consultant who Roy Black brought on to Goodman's legal defense team. Dubin helped select the panel that eventually convicted Goodman at the end of the March 2012 trial. Dubin also resigned from the case after trial.",
             "x":  20,
             "y":  40
+        },
+        {
+            "index": 30,
+            "name":  "Douglas Duncan",
+            "img":  "http://www.globaloceancommission.org/wp-content/uploads/unknown.png",
+            "descr":  "A longtime criminal defense attorney, Duncan has emerged as Goodman's lead attorney after former attorneys Roy Black and Mark Shapiro stepped down from the case. He has been the author of many of Goodman's pretrial motions, including  to a request to move the case out of Palm Beach County. His recent client list includes Gary Czajkowski, the chief defendant in the investigation prosecutors called \"Operation Dirty Water\" and Delray Beach developer Anthony Pugliese, who is accused of fraud and money laundering charges in a case where the alleged victim is Subway founder Fred DeLuca.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 31,
+            "name":  "Elizabeth Parker",
+            "img":  "http://www.globaloceancommission.org/wp-content/uploads/unknown.png",
+            "descr":  "A former Assistant State Attorney whose biggest recent case was the prosecution of Dalia Dippolito, the former Boynton Beach newlywed who recently won a new trial on charges she hired an undercover detective posing as a hitman to kill her husband. Parker has handled Goodman's requests to have the results of his blood test thrown out of the case. She is also the author of the book \"Poison Candy\" a book about her porsecution of Dippolito.",
+            "x":  20,
+            "y":  40
+        },
+        {
+            "index": 32,
+            "name":  "Scott Richardson",
+            "img":  "http://www.globaloceancommission.org/wp-content/uploads/unknown.png",
+            "descr":  "Once a defense attorney whose client list included law enforcement officers accused of crimes, Richardson became a Chief Assistant State Attorney under former top prosecutor Michael McAuliffe. Richardson returned to private practice after McAuliffe stepped down in 2012 and joined Goodman's team shortly after Duncan. Among other topics, Richardson had litigated issues surrounding the accusations that state experts tampered with Goodman's Bentley.",
+            "x":  20,
+            "y":  40
         }
         
         
@@ -438,6 +462,31 @@
             "source":  0,
             "target":  22,
             "type":  "friend"
+        },
+        {
+            "source":  0,
+            "target":  30,
+            "type":  "lawyer"
+        },
+        {
+            "source":  30,
+            "target":  5,
+            "type":  "succeeded"
+        },
+        {
+            "source":  30,
+            "target":  4,
+            "type":  "succeeded"
+        },
+        {
+            "source":  0,
+            "target":  31,
+            "type":  ""
+        },
+        {
+            "source":  0,
+            "target":  32,
+            "type":  "lawyer"
         }
     ]
 }
