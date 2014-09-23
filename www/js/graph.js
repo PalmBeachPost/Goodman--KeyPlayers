@@ -1,19 +1,12 @@
-var svg, link, node,
-    width = $('#gridholder').innerWidth(),
-    height = window.innerHeight;
-
-var force = d3.layout.force()
-    .size([width, height])
-    .charge(-1000)
-    .linkDistance(width / 8)
-    .on("tick", tick);
-
-var drag = force.drag()
-    .on("dragstart", dragstart);
+var svg, link, node, mydata, widtrh, height, r, drag;
 
 
 function graphInit(graph) {
+
+    mydata = graph;
+    setSizes();
     
+    //This is for medley. Verification code on medley removes svg elements from the markup.
     if($('#viz').length==0){
             $("<svg><\svg>")
             .attr("id","viz")
@@ -21,7 +14,6 @@ function graphInit(graph) {
         }
 
     svg = d3.select("#viz")
-        .attr("width", width)
         .attr("height", height);
 
     link = svg.selectAll(".link"),
@@ -30,18 +22,8 @@ function graphInit(graph) {
     svg.append('g')
         .attr('id', 'rectangles');
 
-    for (var i = 0; i < graph.links.length; i++) {
-        var src = graph.links[i].source;
-        var target = graph.links[i].target;
-        if (graph.nodes[src].linklist == undefined) {
-            graph.nodes[src].linklist = [];
-        }
-        graph.nodes[src].linklist[graph.nodes[src].linklist.length] = i;
-        if (graph.nodes[target].linklist == undefined) {
-            graph.nodes[target].linklist = [];
-        }
-        graph.nodes[target].linklist[graph.nodes[target].linklist.length] = i;
-    }
+    drag = force.drag()
+    .on("dragstart", dragstart);
 
     force
       .nodes(graph.nodes)
@@ -61,11 +43,11 @@ function graphInit(graph) {
         .call(drag);
 
     node.append("image")
-          .attr("xlink:href", function (d) { return d.img; })
+          .attr("xlink:href", function (d) { return d.imgcircle; })
           .attr("x", -8)
           .attr("y", -8)
-          .attr("width", 60)
-          .attr("height", 60);
+          .attr("width", getSize)
+          .attr("height", getSize);
 
     linktext = svg.selectAll("g.linklabel")
       .data(graph.links)
@@ -89,7 +71,7 @@ function graphInit(graph) {
     //      .attr("height", function (d) { return d.getBBox().height; })
     //      .attr('fill', 'yellow');
 
-    d3.select('#loading')
+    d3.selectAll('.loading')
       .remove();
 }
 
@@ -123,12 +105,16 @@ function tick() {
     //});
 }
 
+function getSize(d){
+    return 2*(r+d.linklist.length);
+}
+
 function getX(d) {
-    return Math.min(Math.max(30, d.x), width) - 30;
+    return Math.min(Math.max(r, d.x), width) - r;
 }
 
 function getY(d) {
-    return Math.min(Math.max(30, d.y), height) - 30;
+    return Math.min(Math.max(r, d.y), height) - r;
 }
 function dblclick(d) {
     d3.select(this).classed("fixed", d.fixed = false);
@@ -156,23 +142,40 @@ function showDeets(d) {
     //show information
     d3.select('#infobox')
         .html("<p id='closebtn'>x</p><h3>" + d.name +
-        "</h3><img src='" + d.img + "'/><p id='descr'>" + d.descr + "</p>")
+        "</h3><img src='" + d.imgsquare + "'/><p id='descr'>" + d.descr + "</p>")
         .style("display", "block");
 
-    d3.select('#closebtn').on('click', function () {
+    d3.select('#infobox, #closebtn').on('click', function () {
         d3.select('#infobox').style('display', 'none');
     })
 }
 
 function hideDeets(d) {
     d3.select(this).select('image')
-        .attr("width", 60)
-        .attr("height", 60);
+        .attr("width", getSize)
+        .attr("height", getSize);
 
-    d3.selectAll('.linklabel, #infobox').style('display', 'none');
+    d3.selectAll('.linklabel').style('display', 'none');
 
     d3.selectAll('.link.from-' + d.index + ',.link.to-' + d.index)
        .style('stroke', '#000')
        .style('stroke-width', "1px");
 
+}
+
+function resetGraph(){
+    d3.select('#viz').remove();    
+    graphInit(mydata);
+}
+
+function setSizes(){
+    width = $('#gridholder').innerWidth();
+    height = window.innerHeight;
+    r=(width<=768)?20:30;
+
+    force = d3.layout.force()
+    .size([width, height])
+    .charge(-1000)
+    .linkDistance(width / 8)
+    .on("tick", tick);
 }

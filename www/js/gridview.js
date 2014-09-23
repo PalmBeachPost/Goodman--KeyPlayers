@@ -15,8 +15,13 @@ function fillGrid() {
         .on('click', expandThumb);
 
         var img = $("<img>", {
-            "src": node.img
+            "src": node.imgsquare
         }).appendTo(div);
+
+        $("<div><div>")
+        .addClass("role")
+        .text(node.role)
+        .appendTo(div);
 
         var text = $('<div></div>').text(node.descr);
         var name = $('<h3></h3>').text(node.name);

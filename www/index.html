@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <!--trying to include everything important from flatpage head-->
@@ -44,7 +44,9 @@
     <div class="container">
         <h1>John Goodman trial: The key players</h1>
         <div>
-            <p> Add a summary of the case here</p>
+            <p>Wellington polo club founder John Goodman’s DUI manslaughter case will go before the jury for retrial on Oct. 6. </p>
+            <p>Learn more about the key players in the February 2010 crash that killed 23-year-old Scott Patrick Wilson when he drowned after Goodman's Bentley crashed into his Hyundai and pushed it upside-down into a canal.</p>
+            <p>Click on the “view list” or “view connections” tabs to get started.</p>
         </div>
         <div id="tabctrl">
             <span id="tab1" class="active">View List</span>
@@ -52,18 +54,19 @@
         </div>
         <div id="gridholder">
             <p> Click on the photos to read more about the person. Click again to close.</p>
+            <div class="loading"><img src="http://kavyasukumar.com/apps/goodman/data/loading.gif"/></div>
         </div>
         <div id="graphholder">
-            <div id="loading">LOADING... Please wait</div>
+            <div class="loading"><img src="http://kavyasukumar.com/apps/goodman/data/loading.gif"/></div>
             <p> Click on the photos to read more about the person and see how they are connected to the others. Drag a photo to pin its position. Double click or tap to release it.</p>
-            <div style="position:relative">
+            <div id="vizholder">
                 <div id="infobox"></div>
                 <svg id="viz"></svg>
             </div>
         </div>
         <hr/>
         <div id="credits">
-            <p><span class="credittype">Photos by:</span> Lannis Waters</p>
+            <p><span class="credittype">Photos by:</span> Lannis Waters, Richard Graulich</p>
             <p><span class="credittype">Text by:</span> Sonja Isger and Daphne Duret</p>
             <p><span class="credittype">Presentation by:</span> Kavya Sukumar</p>
         </div>
@@ -71,8 +74,9 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="http://kavyasukumar.com/apps/goodman/js/graph.js"></script>
-    <script src="http://kavyasukumar.com/apps/goodman/js/gridview.js"></script>
-    <script src="http://kavyasukumar.com/apps/goodman/js/script.js"></script>
+    <script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+    <script src="./js/graph.js"></script>
+    <script src="./js/gridview.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
