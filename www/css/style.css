@@ -55,7 +55,8 @@
     background-size: cover;
     display:inline-block;
     padding: 0;
-    margin: 0;
+    margin: 0;    
+    position: relative;
 }
 .person .descr{
     display:none;
@@ -68,12 +69,28 @@
     z-index:0;
 }
 
+.role{
+    display: none;
+    font-size: .75em;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    text-align: center;
+    z-index: 20;
+    left: -2%;
+    right: 2%;
+}
 .person:hover img {
     z-index:5;
     -moz-transform: scale(1.1,1.1);
     -webkit-transform: scale(1.1,1.1);
     transform: scale(1.1,1.1);
     border: 1px solid white;
+}
+
+.person:hover .role{
+    display: inline;
 }
 
 .expanded{
@@ -106,21 +123,26 @@
 }
 
 /*--------- GRAPH STUFF-----*/
-#loading{
+.loading{
             width:100%;
             height:100%;
         }
+
+        #vizholder{
+            position:relative;
+        }
         svg{
             background:#eee;
+            width: 100%
         }
         #infobox{
-            padding:10px;
             height:auto;
             position: absolute;
             top: 0;
             width:25%;
             background: white;
             display:none;
+            max-width: 280px;
         }
 
         h3{
@@ -130,9 +152,12 @@
         }
 
         #infobox img{
-            max-height:30%;
-            float:left;
-            padding: 10px;
+            min-width: 100%;
+        }
+
+        #infobox p{
+            padding: 5px;
+            padding-top: 10px;
         }
 
         #closebtn{
@@ -159,3 +184,39 @@
         .linklabel{
             display:none;
         }
+
+@media only screen and (max-width : 480px) {
+    .expanded .descr h3 {
+        text-align: center;
+    }
+    .expanded .descr {
+        display: block;
+        width: 85%;
+        text-align: justify;
+        padding-left: 15px;
+    }
+
+    .expanded img{
+        width: 100%;
+        max-width: none;
+    }
+
+    #vizholder{
+        position: static;
+    }
+
+    #infobox{
+        position: fixed;
+        padding: 0;
+        left: 5%;
+        width: 90%;   
+        max-width: none;
+        border: 1px solid black;    
+        max-height: 200px;
+        overflow-y: scroll;       
+    }
+
+    #infobox img{
+        display: none;
+    }
+}
