@@ -10,7 +10,7 @@ $(document).ready(function () {
         $('#gridholder, #graphholder').toggle();
     });
 
-    d3.json('http://kavyasukumar.com/apps/goodman/data/datafile.json', function (data) {        
+    d3.json('./data/datafile.json', function (data) {        
 
         // Calculate in and out links for each node
         for (var i = 0; i < data.links.length; i++) {
